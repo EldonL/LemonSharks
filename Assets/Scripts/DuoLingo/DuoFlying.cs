@@ -9,11 +9,20 @@ public class DuoFlying : MonoBehaviour
     public GameObject rightHand;
     public void FlyTowardsLeftHand()
     {
-        objectToMove.transform.DOMove(leftHand.transform.position,1);
+        objectToMove.transform.DOMove(leftHand.transform.position,1).OnComplete(()=>{
+            objectToMove.transform.SetParent(leftHand.transform);
+        });
     }
 
     public void FlyTowardsRightHand()
     {
-        objectToMove.transform.DOMove(rightHand.transform.position,1);
+        objectToMove.transform.DOMove(rightHand.transform.position,1).OnComplete(()=>{
+            objectToMove.transform.SetParent(rightHand.transform);
+        });
+    }
+
+    public void UnSelectedHand()
+    {
+        objectToMove.transform.SetParent(null);
     }
 }
