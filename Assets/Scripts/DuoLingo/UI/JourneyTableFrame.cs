@@ -7,7 +7,7 @@ public class JourneyTableFrame : MonoBehaviour
     public delegate void RotationChangedEvent(Vector3 rotation);
     public event RotationChangedEvent OnRotationChanged;
 
-    public void UpdateRotation(Vector3 newRotation)
+    private void UpdateRotation(Vector3 newRotation)
     {
        // if (Vector3.Distance(newRotation, previousRotation) > 0.1f)  // Adjust threshold as needed
        // {
