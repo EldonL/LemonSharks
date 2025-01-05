@@ -1709,6 +1709,7 @@ GameObject:
   - component: {fileID: 235455984090323156}
   - component: {fileID: 4794842689267774724}
   - component: {fileID: 2937242270747538620}
+  - component: {fileID: 5521106365631341830}
   m_Layer: 0
   m_Name: Roadmap_Chest
   m_TagString: Untagged
@@ -1781,6 +1782,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5521106365631341830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6866252630224927137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7f63f736862104f82343da921fcc28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxScale: 0.109787
+  minScale: 0
+  topEdge: {fileID: 7264412697928413073}
+  bottomEdge: {fileID: 354032377645879609}
+  fullSizeZone: 0.5
+  scaleThreshold: 0.1
 --- !u!1 &6959905030785172163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,6 +2235,7 @@ GameObject:
   - component: {fileID: 2464884554967824939}
   - component: {fileID: 3182266443731514094}
   - component: {fileID: 6145083594067162393}
+  - component: {fileID: 5447452138689084775}
   m_Layer: 0
   m_Name: Roadmap_Current
   m_TagString: Untagged
@@ -2289,6 +2309,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5447452138689084775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639474641487599763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7f63f736862104f82343da921fcc28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxScale: 1
+  minScale: 0
+  topEdge: {fileID: 7264412697928413073}
+  bottomEdge: {fileID: 354032377645879609}
+  fullSizeZone: 0.5
+  scaleThreshold: 0.1
 --- !u!1 &8681128791040067562
 GameObject:
   m_ObjectHideFlags: 0
