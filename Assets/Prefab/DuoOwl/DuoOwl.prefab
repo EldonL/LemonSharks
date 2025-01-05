@@ -1552,6 +1552,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: DuoRigged
       objectReference: {fileID: 0}
+    - target: {fileID: 5245245891893382682, guid: 377df412668a4b84082161817ac8c208,
+        type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4729328770297263919}
+    - target: {fileID: 5245245891893382682, guid: 377df412668a4b84082161817ac8c208,
+        type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayDisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 5245245891893382682, guid: 377df412668a4b84082161817ac8c208,
+        type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DuoDiscController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5245245891893382682, guid: 377df412668a4b84082161817ac8c208,
+        type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
