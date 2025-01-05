@@ -20,7 +20,7 @@ public class JourneyTable : MonoBehaviour
     private void HandleRotationChanged(Vector3 rotation)
     {
         // Logic to determine movement based on rotation
-        Vector3 movement = new Vector3(0, 0,rotation.z); // Example mapping
-        journeyDisc.UpdatePosition(movement);
+       // Vector3 movement = new Vector3(0, 0,rotation.z); // Example mapping
+        journeyDisc.UpdatePosition(rotation);
     }
 }

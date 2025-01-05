@@ -5889,7 +5889,6 @@ Transform:
   - {fileID: 574486476}
   - {fileID: 894421948}
   - {fileID: 1146963329}
-  - {fileID: 1755233067090063471}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &460732274
@@ -27592,34 +27591,43 @@ Transform:
   - {fileID: 899929529}
   m_Father: {fileID: 1202195577}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1755233067090063471 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
-    type: 3}
-  m_PrefabInstance: {fileID: 8955332913983498925}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8955332913983498925
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 460732273}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2241188
+      value: -0.04582376
       objectReference: {fileID: 0}
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3499999
+      value: 0.796
       objectReference: {fileID: 0}
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.072036386
+      value: 0.5704073
       objectReference: {fileID: 0}
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
@@ -27634,7 +27642,7 @@ PrefabInstance:
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 441444159121694132, guid: fb39f8cc87f40534b96e892a636cb0ba,
         type: 3}
@@ -27683,6 +27691,7 @@ SceneRoots:
   - {fileID: 104043019}
   - {fileID: 1956317195}
   - {fileID: 818604467}
+  - {fileID: 8955332913983498925}
   - {fileID: 460732273}
   - {fileID: 1402269184}
   - {fileID: 1807878174}

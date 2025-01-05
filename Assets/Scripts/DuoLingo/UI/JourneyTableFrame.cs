@@ -6,20 +6,26 @@ public class JourneyTableFrame : MonoBehaviour
 {
     public delegate void RotationChangedEvent(Vector3 rotation);
     public event RotationChangedEvent OnRotationChanged;
-    private Quaternion lastRotation = new(); // Store the last rotation
-    public bool isRotating;          // Flag to indicate if the object is rotating
+    private Quaternion lastRotation = new(); 
+    private bool isRotating;     
 
+    public Transform flag; 
+    public Transform hinge;
+    private Vector3 lastFlagPosition;
+    private Vector3 lastEulerRotation;
     void Start()
     {
         // Initialize the last rotation with the current rotation
         lastRotation = transform.rotation;
+        lastFlagPosition = flag.position;
+        lastEulerRotation = transform.rotation.eulerAngles;
     }
     private void UpdateRotation(Vector3 newRotation)
     {
        // if (Vector3.Distance(newRotation, previousRotation) > 0.1f)  // Adjust threshold as needed
        // {
             OnRotationChanged?.Invoke(newRotation); // Notify listeners of significant rotation change
-            transform.Rotate(0f, 0f, newRotation.z  * Time.deltaTime);
+            transform.Rotate(newRotation  * Time.deltaTime);
         //}
     }
 
@@ -37,13 +43,19 @@ public class JourneyTableFrame : MonoBehaviour
         {
             isRotating = false;
         }
+
+        
+
         lastRotation = transform.rotation;
+        lastFlagPosition = flag.transform.position;
         if(!isRotating)
         {            
             return;
         }
-        UpdateRotation(new Vector3(0, 0, lastRotation.z));
 
+        UpdateRotation(new Vector3(0, 0, transform.rotation.eulerAngles.y -lastEulerRotation.y));
+        
+        lastEulerRotation = transform.rotation.eulerAngles;
 
     }
 }
