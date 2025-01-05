@@ -14,18 +14,7 @@ public class DuoDiscController : MonoBehaviour
         }      
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.D))
-        {
-            DisplayDisc();
-        }
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            HideDisc();
-        }
-    }
+
 
     public void DisplayDisc()
     {
