@@ -31,7 +31,15 @@ public class JourneyTableFrame : MonoBehaviour
 
     public void Update()
     {
-        // Calculate the angle difference between the current and last rotation
+        // if(Input.GetKey(KeyCode.A)) //testing to code to rotate journey table using keypress for quick debugging
+        // {
+        //     transform.Rotate(new Vector3(0,0,-1));
+        // }
+        // if(Input.GetKey(KeyCode.D))
+        // {
+        //     transform.Rotate(new Vector3(0,0,1));
+        // }
+        // Dalculate the angle difference between the current and last rotation
         float angleDifference = Quaternion.Angle(transform.rotation, lastRotation);
 
         // Set a threshold to consider as "rotation is happening"
