@@ -2215,7 +2215,7 @@ PrefabInstance:
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
@@ -2310,7 +2310,7 @@ PrefabInstance:
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HideBall
+      value: DisplayRegularMaterial
       objectReference: {fileID: 0}
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}

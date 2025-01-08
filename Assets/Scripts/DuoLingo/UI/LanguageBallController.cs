@@ -37,11 +37,5 @@ public class LanguageBallController : MonoBehaviour
         }
     }
 
-    public void DisplayRegularMaterial()
-    {
-        foreach(var languageball in languageBalls)
-        {
-            languageball.DisplayRegularMaterial();
-        }       
-    }
+
 }

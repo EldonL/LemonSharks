@@ -22,4 +22,21 @@ public class LanguageBall : MonoBehaviour
         meshRenderer.material = regualrMaterial;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("collision entered ");
+        if (other.gameObject.tag == "Beak")
+        {
+            Debug.Log($"collision entered languageball {other.gameObject.name}");
+            DisplayOutLineMaterial();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Beak")
+        {
+            DisplayRegularMaterial();
+        }
+    }
 }
