@@ -32,4 +32,5 @@ public class DuoDiscController : MonoBehaviour
             duoDisc.transform.DOMove(duoDisc.discStartTransform.position,1.0f);
         }
     }
+
 }

@@ -80,7 +80,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.23, y: 0.27, z: 1}
+  m_Size: {x: 0.23, y: 0.56, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2309789878453866642
 GameObject:
@@ -331,6 +331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6117539372316421763}
   - component: {fileID: 7792369001976907507}
+  - component: {fileID: 5286126379986939389}
   m_Layer: 0
   m_Name: SnapInteractable
   m_TagString: Untagged
@@ -372,6 +373,43 @@ MonoBehaviour:
   _rigidbody: {fileID: 3012768500348189045}
   _snapPoseDelegate: {fileID: 0}
   _movementProvider: {fileID: 0}
+--- !u!114 &5286126379986939389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832410318767637984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 7792369001976907507}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &7679736475419229522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +489,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1474829489533705534}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 02efef421185c234788c4bc6313583b6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891374876911067252}
     - targetCorrespondingSourceObject: {fileID: 8716664430729336581, guid: 02efef421185c234788c4bc6313583b6,
         type: 3}
       insertIndex: -1
@@ -512,7 +554,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2678517602498020209 stripped
 Transform:
@@ -520,6 +562,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7679736475419229522}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7373112165839142915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 02efef421185c234788c4bc6313583b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7679736475419229522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1891374876911067252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7373112165839142915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8194b0704255a54c9fb3bb27ccef2cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8407185719562450860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2179660292319382270, guid: 02efef421185c234788c4bc6313583b6,

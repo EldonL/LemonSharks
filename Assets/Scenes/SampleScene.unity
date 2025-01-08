@@ -26185,8 +26185,79 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 769307152930436705, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7749913953110268124}
   m_SourcePrefab: {fileID: 100100000, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+--- !u!114 &7749913953110268122 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4729328770297263919, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+    type: 3}
+  m_PrefabInstance: {fileID: 7749913953110268121}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eebe028a7fbe4544e9538af165e5592c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7749913953110268123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 769307152930436705, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+    type: 3}
+  m_PrefabInstance: {fileID: 7749913953110268121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7749913953110268124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749913953110268123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464721f2283eb14e94a33e812b47be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableView: {fileID: 0}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelectingInteractorViewRemoved:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7749913953110268122}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: Holla
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &8955332913983498925
 PrefabInstance:
   m_ObjectHideFlags: 0

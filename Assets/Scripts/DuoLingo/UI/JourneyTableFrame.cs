@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Oculus.Interaction.HandGrab;
 using UnityEngine;
 
 public class JourneyTableFrame : MonoBehaviour
@@ -28,7 +29,7 @@ public class JourneyTableFrame : MonoBehaviour
             transform.Rotate(newRotation  * Time.deltaTime);
         //}
     }
-
+    public HandGrabInteractor test;
     public void Update()
     {
         // if(Input.GetKey(KeyCode.A)) //testing to code to rotate journey table using keypress for quick debugging
