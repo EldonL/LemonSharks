@@ -534,6 +534,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2874294158700643987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2713377166871526063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611213701199670759}
+  m_Layer: 0
+  m_Name: BallBeakPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611213701199670759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2713377166871526063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0992, z: -0.0437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2874294158700643987}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2906092140189974081
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +742,7 @@ Transform:
   - {fileID: 6035254297837253493}
   - {fileID: 1706703784730149143}
   - {fileID: 6900124578256451368}
+  - {fileID: 1611213701199670759}
   - {fileID: 6667423240020645937}
   - {fileID: 4899297168118268771}
   - {fileID: 7963217935030102011}
@@ -1479,6 +1511,7 @@ MonoBehaviour:
   - {fileID: 3935275950431556011}
   - {fileID: 7325875683889123405}
   - {fileID: 5466664751606720472}
+  breakTransform: {fileID: 1611213701199670759}
 --- !u!1 &9016987072382540328
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,7 +2248,7 @@ PrefabInstance:
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
@@ -2310,12 +2343,12 @@ PrefabInstance:
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DisplayRegularMaterial
+      value: HideBall
       objectReference: {fileID: 0}
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DisplayRegularMaterial
+      value: CheckSelectedBall
       objectReference: {fileID: 0}
     - target: {fileID: 5286126379986939389, guid: c30b337e47d81824f9eea7d4e592a817,
         type: 3}
