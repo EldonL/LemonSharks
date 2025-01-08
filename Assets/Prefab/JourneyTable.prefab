@@ -404,6 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf94bb197308fb543b35b2d42cbb8cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 3387468661369399339}
 --- !u!1 &1764741522912058321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,6 +2634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flag: {fileID: 156838471207237961}
   hinge: {fileID: 3753918335491538290}
+  test: {fileID: 0}
 --- !u!54 &2998346304224009124
 Rigidbody:
   m_ObjectHideFlags: 0

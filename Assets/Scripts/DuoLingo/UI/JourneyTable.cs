@@ -7,6 +7,9 @@ public class JourneyTable : MonoBehaviour
     public JourneyTableFrame journeyTableFrame; // Reference to the Model
     public JourneyDisc journeyDisc; // Reference to the View
 
+
+
+
     void Awake()
     {
         journeyTableFrame.OnRotationChanged += HandleRotationChanged;
