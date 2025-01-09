@@ -1248,16 +1248,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3569283730780774874, guid: 60d1d44d2f43ec44e83daa7bc594c229,
-        type: 3}
-      propertyPath: discEndTransform
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569283730780774874, guid: 60d1d44d2f43ec44e83daa7bc594c229,
-        type: 3}
-      propertyPath: discStartTransform
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4027414802852033500, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1454,6 +1444,12 @@ PrefabInstance:
     - {fileID: 1118017260223479788, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
     - {fileID: 6890375819129873086, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
     - {fileID: 2390928374060545227, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 5648822155323356821, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 4336269333584858608, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 7804343211507847085, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 543638098464466609, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 6993223545177922164, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
+    - {fileID: 4163850565075194867, guid: 60d1d44d2f43ec44e83daa7bc594c229, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6654212254982608464, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
