@@ -943,6 +943,116 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 1202195578}
   _syntheticHand: {fileID: 0}
+--- !u!1001 &49628941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 95780752840977209, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: _activeStates.Array.data[1]
+      value: 
+      objectReference: {fileID: 1956317196}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000614239013272598, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313624620697686203, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: m_Name
+      value: DuoFlyingPerch Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633328215961616723, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: _hand
+      value: 
+      objectReference: {fileID: 540714162}
+    - target: {fileID: 6231587367980230917, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: _hand
+      value: 
+      objectReference: {fileID: 1035258826}
+    - target: {fileID: 7574430122312465911, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: leftHand
+      value: 
+      objectReference: {fileID: 275722045}
+    - target: {fileID: 7574430122312465911, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: rightHand
+      value: 
+      objectReference: {fileID: 1199592181}
+    - target: {fileID: 7918898903166303505, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+        type: 3}
+      propertyPath: _activeStates.Array.data[1]
+      value: 
+      objectReference: {fileID: 818604468}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69d16ad79dd9a4d4d806dba9134a5356, type: 3}
+--- !u!114 &49628942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7574430122312465911, guid: 69d16ad79dd9a4d4d806dba9134a5356,
+    type: 3}
+  m_PrefabInstance: {fileID: 49628941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96bb518affd5f0f49bb05cb4612a15bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &52656130
 GameObject:
   m_ObjectHideFlags: 0
@@ -5502,18 +5612,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 504719629}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &460732277 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3366308422131524645, guid: 60d1d44d2f43ec44e83daa7bc594c229,
-    type: 3}
-  m_PrefabInstance: {fileID: 7749913953110268121}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96bb518affd5f0f49bb05cb4612a15bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &462793671
 GameObject:
   m_ObjectHideFlags: 0
@@ -26043,22 +26141,42 @@ PrefabInstance:
         type: 3}
       propertyPath: _whenSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 460732277}
+      objectReference: {fileID: 49628942}
     - target: {fileID: 3852170338033380394, guid: 6b94fe47d4791574cbebd219fcb3ba20,
         type: 3}
       propertyPath: _whenUnselected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 460732277}
+      objectReference: {fileID: 49628942}
+    - target: {fileID: 3852170338033380394, guid: 6b94fe47d4791574cbebd219fcb3ba20,
+        type: 3}
+      propertyPath: _whenSelected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FlyTowardsRightHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852170338033380394, guid: 6b94fe47d4791574cbebd219fcb3ba20,
+        type: 3}
+      propertyPath: _whenUnselected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnSelectedHand
+      objectReference: {fileID: 0}
     - target: {fileID: 5305369524092254405, guid: 6b94fe47d4791574cbebd219fcb3ba20,
         type: 3}
       propertyPath: _whenSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 460732277}
+      objectReference: {fileID: 49628942}
     - target: {fileID: 5305369524092254405, guid: 6b94fe47d4791574cbebd219fcb3ba20,
         type: 3}
       propertyPath: _whenUnselected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 460732277}
+      objectReference: {fileID: 49628942}
+    - target: {fileID: 5305369524092254405, guid: 6b94fe47d4791574cbebd219fcb3ba20,
+        type: 3}
+      propertyPath: _whenSelected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FlyTowardsLeftHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305369524092254405, guid: 6b94fe47d4791574cbebd219fcb3ba20,
+        type: 3}
+      propertyPath: _whenUnselected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnSelectedHand
+      objectReference: {fileID: 0}
     - target: {fileID: 6602124857887816875, guid: 6b94fe47d4791574cbebd219fcb3ba20,
         type: 3}
       propertyPath: _fingerFeatureStateProvider
@@ -26242,6 +26360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DuoOwl
       objectReference: {fileID: 0}
+    - target: {fileID: 8968739441588652393, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26363,6 +26486,7 @@ SceneRoots:
   - {fileID: 7749913953110268121}
   - {fileID: 1402269184}
   - {fileID: 1807878174}
+  - {fileID: 49628941}
   - {fileID: 48934157}
   - {fileID: 440693302}
   - {fileID: 3203005192587013233}

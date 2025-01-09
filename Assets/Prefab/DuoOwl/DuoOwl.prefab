@@ -1659,6 +1659,7 @@ MonoBehaviour:
   objectToMove: {fileID: 8968739441588652393}
   leftHand: {fileID: 0}
   rightHand: {fileID: 0}
+  DuoAnimator: {fileID: 7501226429976071956}
 --- !u!114 &4729328770297263919
 MonoBehaviour:
   m_ObjectHideFlags: 0
