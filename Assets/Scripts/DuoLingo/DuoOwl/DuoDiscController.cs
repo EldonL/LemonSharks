@@ -5,6 +5,7 @@ using DG.Tweening;
 public class DuoDiscController : MonoBehaviour
 {
     public List<DuoDiscs> duoDiscs = new();
+    bool isDisplayDisc = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +15,17 @@ public class DuoDiscController : MonoBehaviour
         }      
     }
 
-
+    
 
     public void DisplayDisc()
     {
+        if(isDisplayDisc)
+        {
+            HideDisc();
+            isDisplayDisc = false;
+            return;
+        }
+        isDisplayDisc = true;
         foreach(var duoDisc in duoDiscs)
         {
             duoDisc.gameObject.SetActive(true);
@@ -27,10 +35,13 @@ public class DuoDiscController : MonoBehaviour
 
     public void HideDisc()
     {
+
         foreach(var duoDisc in duoDiscs)
         {
-            duoDisc.transform.DOMove(duoDisc.discStartTransform.position,1.0f);
+            duoDisc.transform.DOMove(duoDisc.discStartTransform.position, 1.0f).OnComplete(() =>
+             {
+                 duoDisc.gameObject.SetActive(false);
+             });
         }
     }
-
 }
