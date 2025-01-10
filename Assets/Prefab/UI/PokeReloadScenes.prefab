@@ -112,6 +112,7 @@ Transform:
   - {fileID: 1349963216457205826}
   - {fileID: 2329755237317506594}
   - {fileID: 2596121117798669347}
+  - {fileID: 2428028176769091547}
   m_Father: {fileID: 7064598331567073241}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &2503641014090170715
@@ -378,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5838e892-31a4-4f65-a415-dc108aefa14c
-  instanceId: 5617fc3e-f76b-4719-9873-5917763f5c9f
+  instanceId: 163f4290-7381-4e0e-a6b5-a2afc6cfc6b6
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -1244,6 +1245,105 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7019792983313983214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7268247000951569686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 301772298125787050}
+    m_Modifications:
+    - target: {fileID: 382435196640094120, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_text
+      value: LilyWithMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 609686552778580993, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: instanceId
+      value: 9f6feeb8-c8d9-4e7c-baaa-2a28364759a7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2793599682913821638, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_Name
+      value: PokeReloadScene (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188432504362549993, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5188432504362549993, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -428.109
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209792159660120787, guid: 3e649520c83dfa44eb36a0a3155a7971,
+        type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: LilyWithMap
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e649520c83dfa44eb36a0a3155a7971, type: 3}
+--- !u!4 &2428028176769091547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5002398438561823437, guid: 3e649520c83dfa44eb36a0a3155a7971,
+    type: 3}
+  m_PrefabInstance: {fileID: 7268247000951569686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7293829096387661039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1349,7 +1449,7 @@ PrefabInstance:
     - target: {fileID: 609686552778580993, guid: 3e649520c83dfa44eb36a0a3155a7971,
         type: 3}
       propertyPath: instanceId
-      value: cae9f5be-1f94-47a7-9891-99e37b7d845c
+      value: 5e047700-c1c1-421b-857d-2400a0c398b0
       objectReference: {fileID: 0}
     - target: {fileID: 2793599682913821638, guid: 3e649520c83dfa44eb36a0a3155a7971,
         type: 3}

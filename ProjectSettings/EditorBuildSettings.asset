@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PerchOnhand.unity
     guid: 759878bf403a92346bc5acddff0256eb
+  - enabled: 1
+    path: Assets/Scenes/LilyWithMap.unity
+    guid: 2fa6ad0adf2582d4e8008033ff725bf0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3fcfe2651c208794d86e89fefb6000ef,
       type: 2}

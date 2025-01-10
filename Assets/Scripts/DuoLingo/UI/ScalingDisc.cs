@@ -28,7 +28,7 @@ public class ScalingDisc : MonoBehaviour
         float discLocation = localDiscPosition.y;
         float topLocation = localTopEdgePosition.y;
         float bottomLocation = localBottomEdgePosition.y;
-        Debug.Log($"{discLocation}<{bottomLocation} And {discLocation}>{topLocation}");
+
         if(discLocation < bottomLocation)
         {
              transform.localScale = Vector3.zero;
