@@ -15,6 +15,7 @@ public class LanguageBallController : MonoBehaviour
         }
     }
 
+
     public void DisplayBall()
     {
 
@@ -23,6 +24,7 @@ public class LanguageBallController : MonoBehaviour
             languageball.gameObject.SetActive(true);
             languageball.transform.DOMove(languageball.endTransform.position, 1.0f);
             languageball.transform.DOScale(0.2f,1f);
+
         }
     }
 
@@ -34,8 +36,10 @@ public class LanguageBallController : MonoBehaviour
             if (!languageball.isBallTriggerEnter)
             {
                 languageball.transform.DOMove(languageball.startTransform.position, 1.0f).OnComplete(() =>
-                {
+                { 
+                    languageball.DisableLineTransform();
                     languageball.gameObject.SetActive(false);
+                    
                 });
 
             }
@@ -46,15 +50,20 @@ public class LanguageBallController : MonoBehaviour
     public void CheckSelectedBall()
     {
         foreach (var languageball in languageBalls)
-        {
+        {            
+           
             if (!languageball.isBallTriggerEnter)
             {
                 continue;
             }
             if (languageball.isBallTriggerEnter)
             {
-                languageball.transform.DOMove(selectedBallEndTransform.position, 0.5f);
+
+                languageball.transform.DOMove(selectedBallEndTransform.position, 0.5f).OnComplete(()=>{
+                    languageball.DisableLineTransform();
+                });
                 languageball.transform.DOScale(0.05f,0.5f);
+
             }
 
         }

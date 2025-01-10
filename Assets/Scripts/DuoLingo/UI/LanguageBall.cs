@@ -23,6 +23,8 @@ public class LanguageBall : MonoBehaviour
         _lineRenderer.positionCount = 2;
 
     }
+
+
     public void DisplayOutLineMaterial()
     {
         meshRenderer.material = outlineMaterial;
@@ -35,11 +37,9 @@ public class LanguageBall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("collision entered ");
         if (other.gameObject.tag == "Beak")
         {
             isBallTriggerEnter = true;
-            Debug.Log($"collision entered languageball {other.gameObject.name}");
             DisplayOutLineMaterial();
             SetLineTransform();
             EnableLineTransform();
