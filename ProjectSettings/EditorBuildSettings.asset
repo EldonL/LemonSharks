@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LanguageChange.unity
+    guid: 48574a724a52bff40a314c3a3378ac7a
+  - enabled: 1
+    path: Assets/Scenes/LevelChange.unity
+    guid: 5ec21893a05fadf47b4f399670275715
+  - enabled: 1
+    path: Assets/Scenes/DuoCry.unity
+    guid: a7f59f8223ccfa44ea753957976875e8
+  - enabled: 1
+    path: Assets/Scenes/PerchOnhand.unity
+    guid: 759878bf403a92346bc5acddff0256eb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3fcfe2651c208794d86e89fefb6000ef,
       type: 2}
