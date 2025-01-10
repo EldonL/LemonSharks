@@ -32,11 +32,11 @@ public class JourneyTableFrame : MonoBehaviour
     public HandGrabInteractor test;
     public void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || OVRInput.Get(OVRInput.Button.Three))
         {
             UpdateRotation(new Vector3(0, 0, 1));
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || OVRInput.Get(OVRInput.Button.Four))
         {
             UpdateRotation(new Vector3(0, 0, -1));
         }
