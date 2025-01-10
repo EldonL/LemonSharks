@@ -10,8 +10,8 @@ public class ScalingDisc : MonoBehaviour
     public float minScale = 0.0f; // Minimum scale far from the center
     public Transform topEdge;
     public Transform bottomEdge; // Bottom edge of the page
-    public float fullSizeZone = 0.5f; // Distance from the center where the object stays full size
-    public float scaleThreshold = 0.1f; // Distance near the edges where scaling begins
+    public float fullSizeZone = 0.35f; // Distance from the center where the object stays full size
+    private float scaleThreshold = 0.35f; // Distance near the edges where scaling begins
     
     private JourneyTable journeyTable; 
     void Start()
