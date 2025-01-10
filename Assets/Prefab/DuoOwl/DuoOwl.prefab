@@ -1457,17 +1457,17 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
 --- !u!1 &8968739441588652393
 GameObject:

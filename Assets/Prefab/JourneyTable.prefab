@@ -101,7 +101,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &1163930526972901552
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +202,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &1334726362954933544
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +451,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &1918139078781844746
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +552,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &2071633392864986748
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +653,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &2330515458060306477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,17 +1002,17 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
+        Min: 0.2
         Max: 4
 --- !u!1 &3381348570419891221
 GameObject:
@@ -1151,7 +1146,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &3964785688990910769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +1330,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &4887890312027260628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1515,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &5912867070206662219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1699,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &6866252630224927137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,7 +1800,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &6959905030785172163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,7 +1901,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &7083899849952566148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,7 +2087,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &7606164254729095241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,7 +2477,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &8681128791040067562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,7 +2578,6 @@ MonoBehaviour:
   topEdge: {fileID: 7264412697928413073}
   bottomEdge: {fileID: 354032377645879609}
   fullSizeZone: 0.5
-  scaleThreshold: 0.1
 --- !u!1 &8788321333495289441
 GameObject:
   m_ObjectHideFlags: 0
