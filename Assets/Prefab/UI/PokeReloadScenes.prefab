@@ -102,7 +102,7 @@ Transform:
   m_GameObject: {fileID: 1334330537290965675}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5838e892-31a4-4f65-a415-dc108aefa14c
-  instanceId: debef0e7-2230-409d-9bff-e4c6670b6fb9
+  instanceId: 5617fc3e-f76b-4719-9873-5917763f5c9f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -1349,7 +1349,7 @@ PrefabInstance:
     - target: {fileID: 609686552778580993, guid: 3e649520c83dfa44eb36a0a3155a7971,
         type: 3}
       propertyPath: instanceId
-      value: f8a7e6ba-901f-4b4f-bf94-2a1ccc561108
+      value: cae9f5be-1f94-47a7-9891-99e37b7d845c
       objectReference: {fileID: 0}
     - target: {fileID: 2793599682913821638, guid: 3e649520c83dfa44eb36a0a3155a7971,
         type: 3}
