@@ -13,6 +13,11 @@ PrefabInstance:
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 331175347674164833, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: _lineRendererEndTransform
+      value: 
+      objectReference: {fileID: 1153054880845860171}
     - target: {fileID: 1041624193246860518, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -58,9 +63,19 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.06980002
       objectReference: {fileID: 0}
+    - target: {fileID: 2009217811219821875, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: _lineRendererEndTransform
+      value: 
+      objectReference: {fileID: 1153054880845860171}
     - target: {fileID: 2259081116418703440, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
       propertyPath: selectedBallEndTransform
+      value: 
+      objectReference: {fileID: 1153054880845860171}
+    - target: {fileID: 3935275950431556011, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: _lineRendererEndTransform
       value: 
       objectReference: {fileID: 1153054880845860171}
     - target: {fileID: 4027414802852033500, guid: 60d1d44d2f43ec44e83daa7bc594c229,
@@ -83,6 +98,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.06980002
       objectReference: {fileID: 0}
+    - target: {fileID: 5466664751606720472, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: _lineRendererEndTransform
+      value: 
+      objectReference: {fileID: 1153054880845860171}
     - target: {fileID: 6035254297837253493, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -98,6 +118,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.06980002
       objectReference: {fileID: 0}
+    - target: {fileID: 7325875683889123405, guid: 60d1d44d2f43ec44e83daa7bc594c229,
+        type: 3}
+      propertyPath: _lineRendererEndTransform
+      value: 
+      objectReference: {fileID: 1153054880845860171}
     - target: {fileID: 7963217935030102011, guid: 60d1d44d2f43ec44e83daa7bc594c229,
         type: 3}
       propertyPath: m_LocalPosition.z
