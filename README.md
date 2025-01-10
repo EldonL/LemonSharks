@@ -3,7 +3,7 @@
 - This project is primarily designed and developed to assist with the filming process. It is not a fully developed game but a prototype aimed at showcasing interactions, animations, and immersive scenes that highlight the potential of DuolingoXR.
 
 # Tools and Packages
-- Meta all in on sdk v71
+- Meta all in one sdk v71
 - Unity 2022.3.19f1 (Android)
 - Unity Toon Shader 0.11.0
 - Universal RP 14.0.10
