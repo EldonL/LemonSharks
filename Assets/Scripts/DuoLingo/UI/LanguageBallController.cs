@@ -5,7 +5,7 @@ using DG.Tweening;
 public class LanguageBallController : MonoBehaviour
 {
     public List<LanguageBall> languageBalls = new();
-    public Transform breakTransform;
+    public Transform selectedBallEndTransform;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,7 @@ public class LanguageBallController : MonoBehaviour
         {
             languageball.gameObject.SetActive(true);
             languageball.transform.DOMove(languageball.endTransform.position, 1.0f);
+            languageball.transform.DOScale(0.2f,1f);
         }
     }
 
@@ -52,7 +53,8 @@ public class LanguageBallController : MonoBehaviour
             }
             if (languageball.isBallTriggerEnter)
             {
-                languageball.transform.DOMove(breakTransform.position, 0.5f);
+                languageball.transform.DOMove(selectedBallEndTransform.position, 0.5f);
+                languageball.transform.DOScale(0.05f,0.5f);
             }
 
         }
