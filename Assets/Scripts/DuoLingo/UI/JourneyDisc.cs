@@ -13,20 +13,20 @@ public class JourneyDisc : MonoBehaviour
 
         moveSpeed.z = Mathf.Abs(moveSpeed.z) * Mathf.Sign(movement.z);
         transform.position += moveSpeed * Time.deltaTime; // Adjust this logic to fit your needs
-        offset.x+= moveSpeed.z *Time.deltaTime;
+        offset.x+= moveSpeed.z *Time.deltaTime *5;
         meshRenderer.material.mainTextureOffset = offset; // Adjust the axis if needed
     }
 
-    // void Update()
-    // {
-    //     if (Input.GetKey(KeyCode.A))
-    //     {
-    //         UpdatePosition(new Vector3(0, 0, 1));
-    //     }
-    //     if (Input.GetKey(KeyCode.D))
-    //     {
-    //         UpdatePosition(new Vector3(0, 0, -1));
-    //     }
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.A))
+        {
+            UpdatePosition(new Vector3(0, 0, 1));
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            UpdatePosition(new Vector3(0, 0, -1));
+        }
 
-    // }
+    }
 }

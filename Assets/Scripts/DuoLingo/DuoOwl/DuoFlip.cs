@@ -9,10 +9,10 @@ public class DuoFlip : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            Grabbed();
-        }
+        // if(Input.GetKeyDown(KeyCode.A))
+        // {
+        //     Grabbed();
+        // }
     }
     public void Grabbed()
     {            

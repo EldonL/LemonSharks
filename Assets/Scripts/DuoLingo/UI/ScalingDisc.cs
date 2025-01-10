@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Unity.VisualScripting;
 public class ScalingDisc : MonoBehaviour
 {
     // public Transform center; // The center point
@@ -11,25 +12,37 @@ public class ScalingDisc : MonoBehaviour
     public Transform bottomEdge; // Bottom edge of the page
     public float fullSizeZone = 0.5f; // Distance from the center where the object stays full size
     public float scaleThreshold = 0.1f; // Distance near the edges where scaling begins
-    // Start is called before the first frame update
-    // Update is called once per frame
+    
+    private JourneyTable journeyTable; 
+    void Start()
+    {
+        journeyTable = FindObjectOfType<JourneyTable>();
+    }
     void Update()
     {
-
-        if(transform.position.z > bottomEdge.position.z)
+                // Use local positions relative to the shared parent
+        Vector3 localDiscPosition = journeyTable.gameObject.transform.InverseTransformPoint(transform.position);
+        Vector3 localTopEdgePosition = journeyTable.gameObject.transform.InverseTransformPoint(topEdge.position);
+        Vector3 localBottomEdgePosition = journeyTable.gameObject.transform.InverseTransformPoint(bottomEdge.position);
+        // Work with the z-axis in local space
+        float discLocation = localDiscPosition.y;
+        float topLocation = localTopEdgePosition.y;
+        float bottomLocation = localBottomEdgePosition.y;
+        Debug.Log($"{discLocation}<{bottomLocation} And {discLocation}>{topLocation}");
+        if(discLocation < bottomLocation)
         {
              transform.localScale = Vector3.zero;
              return;
         }
 
-        if(transform.position.z < topEdge.position.z)
+        if(discLocation > topLocation)
         {
              transform.localScale = Vector3.zero;
              return;
         }
 
-        float distanceToTop = Mathf.Abs(transform.position.z - topEdge.position.z);
-        float distanceToBottom = Mathf.Abs(transform.position.z - bottomEdge.position.z);
+        float distanceToTop = Mathf.Abs(discLocation  - topLocation);
+        float distanceToBottom = Mathf.Abs(discLocation  - bottomLocation);
 
         // Find the distance to the nearest edge
         float distanceToNearestEdge = Mathf.Min(distanceToTop, distanceToBottom);
