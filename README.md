@@ -8,3 +8,11 @@
 - Unity Toon Shader 0.11.0
 - Universal RP 14.0.10
 - Dotween
+
+## Meet Our Team! :handshake:
+### :man_technologist:   Eldon Lin
+### :woman_technologist:    Sarah Gordon
+### :man_technologist:    Dave Mills
+### :woman_artist:    Kateryna Bielotserkovska‏‏‎
+### :man_artist:  Tanguy Le Crom
+### :woman_artist:    Alisa Maltseva 
