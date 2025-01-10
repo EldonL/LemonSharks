@@ -9,10 +9,12 @@
 - Universal RP 14.0.10
 - Dotween
 
-## Meet Our Team! :handshake:
+## Meet Our Developers! :handshake:
 ### :man_technologist:   Eldon Lin
-### :woman_technologist:    Sarah Gordon
 ### :man_technologist:    Dave Mills
+
+## Meet Our Designers! :handshake:
 ### :woman_artist:    Kateryna Bielotserkovska‏‏‎
 ### :man_artist:  Tanguy Le Crom
+### :woman_artist:    Sarah Gordon
 ### :woman_artist:    Alisa Maltseva 
