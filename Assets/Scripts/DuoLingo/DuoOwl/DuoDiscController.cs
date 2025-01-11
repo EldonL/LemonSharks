@@ -18,6 +18,11 @@ public class DuoDiscController : MonoBehaviour
         }      
     }
 
+    void OnDestroy()
+    {
+        onDiscSelected = null;
+    }
+
     
     public void ObjectHover()
     {
