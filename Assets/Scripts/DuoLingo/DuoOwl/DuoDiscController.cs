@@ -46,10 +46,10 @@ public class DuoDiscController : MonoBehaviour
         {
             if(duoDisc.isTouchingJourneyDisc)
             {
-                duoDisc.transform.DOScale(0.05f,1.0f).OnComplete(()=>{
+               // duoDisc.transform.DOScale(0.05f,1.0f).OnComplete(()=>{
                     duoDisc.gameObject.SetActive(false);
                     onDiscSelected?.Invoke();
-                });
+               // });
                 
                 continue;
             }
