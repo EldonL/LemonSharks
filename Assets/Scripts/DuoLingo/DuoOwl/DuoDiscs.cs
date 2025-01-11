@@ -8,5 +8,6 @@ public class DuoDiscs : MonoBehaviour
     public Transform discEndTransform;
     public Transform discStartTransform;
 
+    public bool isTouchingJourneyDisc;
 
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Beak
+  - disc
   layers:
   - Default
   - TransparentFX

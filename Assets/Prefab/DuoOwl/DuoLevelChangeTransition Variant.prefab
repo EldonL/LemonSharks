@@ -193,6 +193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 465998843807384842}
   - component: {fileID: 7627985089598761858}
+  - component: {fileID: 4818577463007905699}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -239,6 +240,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &4818577463007905699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002294669943383171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 7627985089598761858}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1042596630175810830}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: ObjectHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2254735200948342519
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8892898450169663718}
   - component: {fileID: 4624704342700513389}
+  - component: {fileID: 8347070870475406332}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -478,6 +532,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &8347070870475406332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706540889465547025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 4624704342700513389}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1042596630175810830}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: ObjectHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3901221167715434338
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +1074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8714644156633970825}
   - component: {fileID: 7239575611240832025}
+  - component: {fileID: 6285334361855624324}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -1014,6 +1121,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &6285334361855624324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5517917037731993759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 7239575611240832025}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1042596630175810830}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: ObjectHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6882368003129034538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3375699246255719111}
   - component: {fileID: 1066671664337764062}
+  - component: {fileID: 3319881158931712303}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -1070,6 +1230,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &3319881158931712303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6882368003129034538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 1066671664337764062}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1042596630175810830}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: ObjectHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8278537901444655689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4056100995080837779}
   - component: {fileID: 26916549853636373}
+  - component: {fileID: 7972025168843837327}
   m_Layer: 0
   m_Name: SnapInteractor
   m_TagString: Untagged
@@ -1126,6 +1339,58 @@ MonoBehaviour:
   _defaultInteractable: {fileID: 0}
   _timeOutInteractable: {fileID: 0}
   _timeOut: 0
+--- !u!114 &7972025168843837327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278537901444655689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf00a93483fd1b4ba357bf6f764d6e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorView: {fileID: 26916549853636373}
+  _whenEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1042596630175810830}
+        m_TargetAssemblyTypeName: DuoDiscController, Assembly-CSharp
+        m_MethodName: ObjectHover
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPreprocessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenProcessed:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenPostprocessed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8735400584931324562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +2003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_Trophy
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5479348e023cbad428c5d7c8798f70a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: disc
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1832,6 +2102,7 @@ MonoBehaviour:
   disc: {fileID: 6039415216772267643}
   discEndTransform: {fileID: 9056995234114153084}
   discStartTransform: {fileID: 4426342780839145607}
+  isTouchingJourneyDisc: 0
 --- !u!4 &6384838221225583809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5479348e023cbad428c5d7c8798f70a8,
@@ -1900,6 +2171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI_Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a175cd2ad89a4644286363431b045ac7,
+        type: 3}
+      propertyPath: m_TagString
+      value: disc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2001,6 +2277,7 @@ MonoBehaviour:
   disc: {fileID: 7968275896085141888}
   discEndTransform: {fileID: 1905358947470844068}
   discStartTransform: {fileID: 8612786973663012362}
+  isTouchingJourneyDisc: 0
 --- !u!1001 &7799310638929374225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,6 +2340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI_Profile
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ec7002b8ebf4294c8fc85cee00fc11e,
+        type: 3}
+      propertyPath: m_TagString
+      value: disc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2158,6 +2440,7 @@ MonoBehaviour:
   disc: {fileID: 6988986726320591168}
   discEndTransform: {fileID: 5494723888425041159}
   discStartTransform: {fileID: 7695595657026923575}
+  isTouchingJourneyDisc: 0
 --- !u!4 &7761407265897319418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6ec7002b8ebf4294c8fc85cee00fc11e,
@@ -2226,6 +2509,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI_Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21ccb7857465b7241a787d448d926c58,
+        type: 3}
+      propertyPath: m_TagString
+      value: disc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2327,6 +2615,7 @@ MonoBehaviour:
   disc: {fileID: 8977993338715591220}
   discEndTransform: {fileID: 8691474838396562054}
   discStartTransform: {fileID: 5972283416124033919}
+  isTouchingJourneyDisc: 0
 --- !u!1001 &8959884322874598005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2389,6 +2678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI_Training
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0f3c417648c844543811635c8d0067bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: disc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2484,6 +2778,7 @@ MonoBehaviour:
   disc: {fileID: 8112828459455422244}
   discEndTransform: {fileID: 4813484591489971498}
   discStartTransform: {fileID: 3712314034810324168}
+  isTouchingJourneyDisc: 0
 --- !u!4 &8925393581925287326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f3c417648c844543811635c8d0067bb,
