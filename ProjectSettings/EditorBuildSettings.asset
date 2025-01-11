@@ -11,19 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelChange.unity
     guid: 5ec21893a05fadf47b4f399670275715
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LanguageChange.unity
     guid: 48574a724a52bff40a314c3a3378ac7a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DuoCry.unity
     guid: a7f59f8223ccfa44ea753957976875e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PerchOnhand.unity
     guid: 759878bf403a92346bc5acddff0256eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LilyWithMap.unity
     guid: 2fa6ad0adf2582d4e8008033ff725bf0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map.unity
     guid: dd02eaa51ab206341b177a9843ed949b
   m_configObjects:
