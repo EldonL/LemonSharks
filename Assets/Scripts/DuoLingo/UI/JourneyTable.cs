@@ -8,7 +8,7 @@ public class JourneyTable : MonoBehaviour
     public JourneyDisc journeyDisc; // Reference to the View
 
     public LineRenderer journeyTableLineRenderer;
-
+    public GameObject portal;
 
     void Awake()
     {
@@ -19,6 +19,7 @@ public class JourneyTable : MonoBehaviour
     void Start()
     {
         journeyTableLineRenderer.gameObject.SetActive(false);
+        portal.SetActive(false);
         DuoDiscController.onDiscSelected+=DiscSelected;
     }
 
@@ -69,6 +70,7 @@ public class JourneyTable : MonoBehaviour
     public void DiscSelected()
     {
         journeyTableLineRenderer.gameObject.SetActive(false);
+        portal.SetActive(true);
     }
 
 }

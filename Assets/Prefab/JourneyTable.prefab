@@ -2528,6 +2528,7 @@ MonoBehaviour:
   journeyTableFrame: {fileID: 6381026751577507025}
   journeyDisc: {fileID: 6370127239442349240}
   journeyTableLineRenderer: {fileID: 17636902751789685}
+  portal: {fileID: 287275158490333159}
 --- !u!54 &971626160979331956
 Rigidbody:
   m_ObjectHideFlags: 0
