@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Beak
   - disc
+  - knife
   layers:
   - Default
   - TransparentFX
