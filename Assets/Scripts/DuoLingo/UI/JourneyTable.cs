@@ -7,25 +7,25 @@ public class JourneyTable : MonoBehaviour
     public JourneyTableFrame journeyTableFrame; // Reference to the Model
     public JourneyDisc journeyDisc; // Reference to the View
 
-    public LineRenderer journeyTableLineRenderer;
-    public GameObject portal;
+
+
+
+    public GrabbablePart grabbablePart; 
 
     void Awake()
     {
         journeyTableFrame.OnRotationChanged += HandleRotationChanged;
-        journeyTableLineRenderer.positionCount = 2;
     }
 
     void Start()
     {
-        journeyTableLineRenderer.gameObject.SetActive(false);
-        portal.SetActive(false);
-        DuoDiscController.onDiscSelected+=DiscSelected;
+
+
     }
 
     private void OnDestroy()
     {
-        DuoDiscController.onDiscSelected -= DiscSelected;
+
         journeyTableFrame.OnRotationChanged -= HandleRotationChanged;
     }
 
@@ -36,41 +36,16 @@ public class JourneyTable : MonoBehaviour
         journeyDisc.UpdatePosition(rotation);
     }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "disc")
-        {
-            journeyTableLineRenderer.gameObject.SetActive(true);
-            other.gameObject.GetComponent<DuoDiscs>().isTouchingJourneyDisc = true;
-        }
 
-    }
-    public void OnTriggerStay(Collider other)
+
+    public void OnSelected()
     {
-        if (other.gameObject.tag == "disc")
-        {
-            ObjectHover(other);
-        }
+        grabbablePart.OnSelected();
     }
 
-    public void OnTriggerExit(Collider other)
+    public void OnUnSelected()
     {
-        if (other.gameObject.tag == "disc")
-        {
-            journeyTableLineRenderer.gameObject.SetActive(false);
-            other.gameObject.GetComponent<DuoDiscs>().isTouchingJourneyDisc = false;
-        }
-    }
-    public void ObjectHover(Collider other)
-    {
-        journeyTableLineRenderer.SetPosition(0, transform.position);
-        journeyTableLineRenderer.SetPosition(1, other.gameObject.transform.position);
-    }
-
-    public void DiscSelected()
-    {
-        journeyTableLineRenderer.gameObject.SetActive(false);
-        portal.SetActive(true);
+        grabbablePart.OnUnSelected();
     }
 
 }

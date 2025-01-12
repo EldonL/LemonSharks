@@ -32,13 +32,14 @@ public class JourneyTableFrame : MonoBehaviour
     public HandGrabInteractor test;
     public void Update()
     {
-        if (Input.GetKey(KeyCode.A) || OVRInput.Get(OVRInput.Button.Three))
-        {
-            UpdateRotation(new Vector3(0, 0, 1));
-        }
-        if (Input.GetKey(KeyCode.D) || OVRInput.Get(OVRInput.Button.Four))
+        if (Input.GetKey(KeyCode.D) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
         {
             UpdateRotation(new Vector3(0, 0, -1));
+        }
+        if (Input.GetKey(KeyCode.A) || OVRInput.Get(OVRInput.Button.PrimaryHandTrigger) || OVRInput.Get(OVRInput.Button.SecondaryHandTrigger))
+
+        {
+            UpdateRotation(new Vector3(0, 0, 1));
         }
 
         //Calculate rotation using eulerAngles to avoid rotating the wrong way
