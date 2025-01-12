@@ -12,13 +12,22 @@ public class ChestSceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(ChestRoutine());
-        chest.transform.localScale = new Vector3(0.0f,0.0f,0.0f);
+
+    }
+
+    public void Update()
+    {
+         if (Input.GetKey(KeyCode.D) || OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger))
+         {
+            StartCoroutine(ChestRoutine());
+            chest.transform.localScale = new Vector3(0.0f,0.0f,0.0f);
+         }
     }
 
     private IEnumerator ChestRoutine()
     {
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(7.0f);
+        duoGlasses.SetActive(true);
         chest.transform.DOScale(1,1.5f).OnComplete(()=>{
             chestAnimator.SetBool("openChest", true);
         });

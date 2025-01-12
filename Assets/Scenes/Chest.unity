@@ -6568,6 +6568,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &589058607 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3020859139044714616, guid: 68721df8b03ecc647ad07ef682cb3783,
+    type: 3}
+  m_PrefabInstance: {fileID: 2586622090554495507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &590386025
 GameObject:
   m_ObjectHideFlags: 0
@@ -22213,7 +22219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestAnimator: {fileID: 1893801882}
   chest: {fileID: 314488627}
-  duoGlasses: {fileID: 0}
+  duoGlasses: {fileID: 589058607}
 --- !u!1 &1822325619
 GameObject:
   m_ObjectHideFlags: 0
