@@ -13,6 +13,7 @@ public class ScalingDisc : MonoBehaviour
     public float fullSizeZone = 0.35f; // Distance from the center where the object stays full size
     private float scaleThreshold = 0.35f; // Distance near the edges where scaling begins
     
+    public SkinnedMeshRenderer skinnedMeshRendererButton;
     private JourneyTable journeyTable; 
     void Start()
     {
@@ -60,5 +61,14 @@ public class ScalingDisc : MonoBehaviour
 
         // Apply the scale
         transform.localScale = Vector3.one * scale;
+    }
+
+    public void ButtonSelected()
+    {
+        skinnedMeshRendererButton.SetBlendShapeWeight(1,25.0f);
+    }
+        public void ButtonUnSelected()
+    {
+        skinnedMeshRendererButton.SetBlendShapeWeight(1,0.0f);
     }
 }

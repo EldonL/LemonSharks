@@ -9,7 +9,6 @@ public class JourneyTable : MonoBehaviour
 
 
 
-
     public GrabbablePart grabbablePart; 
 
     void Awake()
