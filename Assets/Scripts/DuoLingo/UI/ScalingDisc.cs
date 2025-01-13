@@ -15,9 +15,17 @@ public class ScalingDisc : MonoBehaviour
     
     public SkinnedMeshRenderer skinnedMeshRendererButton;
     private JourneyTable journeyTable; 
+
+    public delegate void DiscPressed();
+    public static event DiscPressed onDiscPressed;
     void Start()
     {
         journeyTable = FindObjectOfType<JourneyTable>();
+    }
+
+    void OnDestroy()
+    {
+        onDiscPressed = null;
     }
     void Update()
     {
@@ -66,6 +74,7 @@ public class ScalingDisc : MonoBehaviour
     public void ButtonSelected()
     {
         skinnedMeshRendererButton.SetBlendShapeWeight(1,25.0f);
+        onDiscPressed?.Invoke();
     }
         public void ButtonUnSelected()
     {

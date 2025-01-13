@@ -11,15 +11,15 @@ public class LevelChangeSceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DuoDiscController.onDiscSelected+=OwlFinalDestination;
+        ScalingDisc.onDiscPressed+=OwlFinalDestination;
     }
 
     void Destroy()
     {
-        DuoDiscController.onDiscSelected-=OwlFinalDestination;
+        ScalingDisc.onDiscPressed-=OwlFinalDestination;
     }
 
-    private void OwlFinalDestination()
+    public void OwlFinalDestination()
     {   
         owlAnimator.Play("Takeoff2");
         owl.transform.DOScale(0.0f,2.0f);
